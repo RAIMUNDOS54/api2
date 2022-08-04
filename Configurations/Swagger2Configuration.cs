@@ -28,7 +28,7 @@
 
             Program.WA.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger-ui/v1/swagger.json", "Exactaworks api2 - Expenses API");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Exactaworks api2 - Expenses API");
             });
         }
     }
