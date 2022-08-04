@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace api2.Models
+﻿namespace api2.Models
 {
     public partial class Expense
     {
