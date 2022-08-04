@@ -1,7 +1,8 @@
 # api2
 api2 microservice project. Using .NET 7 and SQL Server. Naturally async.
 
-Contents
+
+## Contents
 
 1. Introduction 
 
@@ -11,7 +12,7 @@ Contents
 
 
 
-1. Introduction 
+### 1. Introduction 
 
 For Postman, Swagger and API Endpoints, go directly to the Section 2. Detailed Information 
 
@@ -31,7 +32,7 @@ Anyway, the endpoints on Oracle Cloud on-premises are up for a fight I guess, si
 
 The SQL Server database is also hosted on this OCI VM Machine. 
 
-2. Detailed Information: 
+### 2. Detailed Information: 
 
 api0:
 
@@ -39,7 +40,7 @@ api1:
 
 api2: 
 
-3. Final Words 
+### 3. Final Words 
 
 It was nice to take this little dive in the Java world. Thanks for the opportunity. I hope you guys like the .NET 7 example as well. Since you mentioned, I thought it would be a good idea to use the rest of the time after I was healed not investing in the Spring Cloud, but showing a new technology for you guys (I guess, at least for me it is) that I tend to trust and intend to use a lot in the future (even though I don't have any preferences). 
 
