@@ -6,19 +6,19 @@ namespace api2.Controllers
     {
         private readonly ExpenseService expenseService = new();
 
-        public async Task<List<Expense>> GetExpenses()
+        public async Task<List<Expense>> GetExpensesAsync()
         {
-            return await expenseService.GetAllExpenses();
+            return await expenseService.GetAllExpensesAsync();
         }
 
-        public async Task<Expense> GetExpense(int ID)
+        public async Task<Expense> GetExpenseAsync(int ID)
         {
-            return await expenseService.GetExpense(ID);
+            return await expenseService.GetExpenseAsync(ID);
         }
 
-        public async Task<Expense> CraeteExpense(Expense expense)
+        public async Task<Expense> CreateExpenseAsync(Expense expense)
         {
-            return await expenseService.CreateExpense(expense);
+            return await expenseService.CreateExpenseAsync(expense);
         }
     }
 }

@@ -6,17 +6,17 @@ namespace api2.Services
     {
         private readonly ExpenseRepository expenseRepository = new();
 
-        public async Task<List<Expense>> GetAllExpenses()
+        public async Task<List<Expense>> GetAllExpensesAsync()
         {
             return await expenseRepository.GetAllExpenses();
         }
 
-        public async Task<Expense> GetExpense(int ID)
+        public async Task<Expense> GetExpenseAsync(int ID)
         {
             return await expenseRepository.GetExpense(ID);
         }
 
-        public async Task<Expense> CreateExpense(Expense expense)
+        public async Task<Expense> CreateExpenseAsync(Expense expense)
         {
             return await expenseRepository.CreateExpense(expense);
         }

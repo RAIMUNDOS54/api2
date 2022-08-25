@@ -6,6 +6,7 @@
         {
             _ = new DbConfiguration();
             _ = new Swagger2Configuration();
+            _ = new JWTConfiguration();
        }
     }
 }

@@ -17,6 +17,7 @@
             UsePathbase("/api");
 
             Swagger2Configuration.UseSwagger();
+            JWTConfiguration.UseJWT();
 
             Run();
         }
