@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'Exactaworks-API2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_140E0A7EB1864B2FA0A0161D3D3181FB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B803A9B36E984C6A9A07A0D190A57966 }}
           package: .
